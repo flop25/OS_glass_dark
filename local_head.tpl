@@ -1,4 +1,4 @@
-{combine_script id='jquery.tipTip.minified' load='header' require='jquery' path='themes/OS_glass_clear/tiptip/jquery.tipTip.minified.js'}
+{combine_script id='jquery.tipTip.minified' load='header' require='jquery' path='themes/OS_glass_dark/tiptip/jquery.tipTip.minified.js'}
 {html_head}{literal} 
 <script type="text/javascript">
 jQuery(document).ready(function(){
