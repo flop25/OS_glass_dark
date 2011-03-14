@@ -1,0 +1,317 @@
+/* ---------------------------------------------------------------------------
+Thème OS_glass_dark
+
+theme-enfant de OS_default
+
+by flop25 http://www.planete-flop.fr/
+------------------------------------------------------------------------------ */
+
+@import "tiptip/tipTip.css" ;
+/* text color */
+BODY, H1, H2, H3, DT,
+INPUT.rateButtonSelected  {
+  color:#fff;
+}
+
+/* backgrounds */
+H3, .throw {
+  background-color: #ffffff;	/* white */
+}
+body {
+	background-image: url(images/back1.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-attachment:fixed;
+	font-size:0.7em;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	background-color: #000;
+}
+BODY#theCommentsPage .content,
+BODY#theUploadPage .content,
+BODY#theRegisterPage .content,
+BODY#theIdentificationPage .content,
+BODY#theProfilePage .content,
+BODY#theSearchPage .content,
+BODY#theAboutPage .content,
+BODY#thePopuphelpPage .content,
+BODY#thePasswordPage .content,
+BODY#theNotificationPage .content,
+BODY#theTagsPage .content,
+BODY#theNBMPage .content
+{
+background: transparent url(images/section_in.png) repeat top center;
+}
+H2, .row1 {
+  background-color: #d3d3d3;
+}
+
+.header_notes {
+  background-color: #eeeeee;
+}
+#the_page > #comments {
+background: transparent url(images/section_in.png) repeat top center;
+}
+#comments H3, .titrePage h2, #section_in h2 {
+	background-image: url(images/fondMenu2.gif);
+	background-repeat:repeat-x;
+	background-color:#000;
+	color: #fff;
+}
+
+.content DIV.thumbnailCategory {
+	background-image: url(../../icon/menu/folder.png);
+	background-position: left bottom;
+	background-repeat:no-repeat;
+}
+.content ul.thumbnails span.wrap2 {
+background: transparent url(images/vignette.png) no-repeat top left;
+width:144px;
+height:144px;
+}
+.content ul.thumbnails span.wrap1 {
+	width:144px;
+	margin: 5px;
+}
+/* header */
+#theHeader {
+	background-image: url(images/header3.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-color: #000000;
+	color:#FFFFFF;
+	font-size:1.2em;
+	font-weight:bold;
+	height:105px;
+}
+#theHeader H1 {
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+/* contenu "section" */
+#section_up_left{
+	background-image: url(images/section_up_left.png);
+	background-position:right bottom;
+	background-repeat:no-repeat;
+	height:50px;
+	width:18px;
+}
+#section_up {
+ background-image: url(images/section_up.png);
+ background-position:bottom;
+ background-repeat:repeat-x;
+ height:50px;
+}
+#section_up_right{
+ background-image: url(images/section_up_right.png);
+ background-position:left bottom;
+ background-repeat:no-repeat;
+ height:50px;
+ width:20px;
+}
+#section_left{
+ background-image: url(images/section_left.png);
+ background-position:right;
+ background-repeat:repeat-y;
+ width:18px;
+}
+#section_bottom_left{
+ background-image: url(images/section_bottom_left.png);
+ background-position:top right;
+ background-repeat:no-repeat;
+ height:20px;
+ width:18px;
+}
+#section_bottom {
+ background-image: url(images/section_bottom.png);
+ background-position:top;
+ background-repeat:repeat-x;
+ height:20px;
+}
+#section_bottom_right{
+ background-image: url(images/section_bottom_right.png);
+ background-position:left top;
+ background-repeat:no-repeat;
+ height:20px;
+ width:20px;
+}
+#section_right{
+ background-image: url(images/section_right.png);
+ background-repeat:repeat-y;
+ background-position:left;
+ width:18px;
+}
+
+
+/* menu Haut*/
+#div_Menu {
+	background-image: url(images/fondMenu2.gif);
+	background-repeat:repeat-x;
+}
+
+ul#Menu, ul#Menu li
+{
+	background:transparent;
+}
+ul#Menu li:hover
+{
+color: #fff;
+background-image: url(images/fondMenuSurvol.gif);
+background-repeat:repeat-x;
+background-position:center;
+background-color:transparent;
+	text-decoration: none;
+    border-bottom: none;
+}
+/* menubar */
+#menubar DL, #section_in{
+background: transparent url(images/section_in.png) repeat top center;
+}
+#menubar DT{
+	background-image: url(images/fondMenu2.gif);
+	background-repeat:repeat-x;
+	background-color:#002024;
+	}
+
+/* borders */
+#menubar DL {
+  border: 2px solid #002024;
+}
+
+#theImage IMG {
+  border-color: #fff;
+}
+#linkNext, #linkPrev {
+  border: 2px solid #fff;
+}
+
+.content UL.thumbnail IMG {
+    border: 1px solid #a0a0a0;
+}
+
+FIELDSET, INPUT, SELECT, TEXTAREA,
+.content DIV.comment  A.illustration IMG {
+  border: 1px solid #fff;
+}
+
+#comments DIV.comment BLOCKQUOTE {
+  border-left: 2px solid #696969;
+}
+
+/*
+.content UL.thumbnails SPAN.wrap2:hover,*/
+.content UL.thumbnailCategories DIV.thumbnailCategory:hover,
+.content UL.thumbnailCategories DIV.thumbnailCategory:hover A {
+  border-color: #002024;
+  color: #42B4FF;
+}
+.thumbnailCategory IMG {
+	border: 2px solid #FFFFFF;
+}
+/* links */
+A, INPUT.rateButton {
+    color: #fff;
+    background: transparent;
+}
+
+A:hover, INPUT.rateButton:hover {
+	color: #42B4FF;
+	border-bottom: none;
+	font-weight:bold;
+}
+
+#imageToolBar A, #imageToolBar A:hover {
+    border-bottom: none;
+}
+
+A.navThumb, A.navThumb:hover {
+    border-bottom: none;
+}
+#div_Menu A {
+	color:#FFFFFF;
+	text-decoration: none;
+}
+#div_Menu A:hover {
+	text-decoration: none;
+    border-bottom: none;
+}
+.header_notes A {
+    color: #333;
+}
+/* Picture */
+#imageHeaderBar {
+	background-image: url(images/fondblack2.png);
+	background-repeat:repeat-x;
+	background-position: center top;
+	background-color: #000000;
+}
+#imageHeaderBar h2 {
+background:transparent;
+color:#FFFFFF
+}
+#imageHeaderBar, #imageHeaderBar A {
+color:#FFFFFF;
+}
+#imageToolBar .randomButtons, #imageToolBar .navButtons {
+background:transparent;
+}
+#imageToolBar .navButtons {
+background:transparent;
+
+}
+#imageToolBar {
+	background-image: url(images/fondblack_bas.png);
+	background-repeat:repeat-x;
+	background-position: center bottom;
+	background-color: #000000;
+}
+#imageToolBar A:hover {
+background-image: url(images/fondMenuSurvol.gif);
+background-repeat:repeat-x;
+background-position:center;
+background-color:transparent;
+}
+#action_pict {
+	border: 2px solid #FFFFFF;
+    background: transparent url(images/back_actionpict.png) bottom center no-repeat;
+    color:#fff;
+    font-weight:bold;
+}
+#imageToolBar {
+    height: 60px;
+}
+#imageToolBar #thumbPrev, #imageToolBar #thumbNext {
+	margin-left:5px;
+	margin-right:5px;
+	display:inline;
+	width:auto;
+}
+#imageToolBar #thumbCurrent {
+	margin-left:5px;
+	margin-right:5px;
+	display:inline;
+	width:auto;
+}
+#imageToolBar #linkPrev, #imageToolBar #thumbCurrent, #imageToolBar #linkNext {
+	border:#FFF solid 2px;
+	width:auto;
+}
+
+/*calendar elements*/
+SPAN.calItem, SPAN.calItemEmpty
+{
+  border: 1px solid silver;
+}
+
+.virtual_cat { background: #fff !important; }
+#mbMenu #quicksearch > p { text-align: left; }
+form p { text-align:center; }
+#qsearchInput { color: #000; }
+#qsearchInput:focus { color: #000; }
+UL.tabsheet LI.normal_tab { background-color: #d3d3d3; }
+UL.tabsheet LI.selected_tab { background-color: #eeeeee; }
+
+UL.tabsheet, UL.tabsheet LI {border-color: gray;}
+UL.tabsheet LI.normal_tab:hover { border-color: black; }
+
+/*______________-------------------___________________________---------*/
