@@ -25,7 +25,7 @@ $(function(){
     <!--[if lt IE 7]>
 <style>
 	#menubar dl, #section_in {
-	background:  #FFF!important;
+	background:  #000!important;
 	}
 	/* contenu "section" */
 	#section_up_left, #section_up, #section_up_right, #section_left, #section_bottom_left, #section_bottom, #section_bottom_right, #section_right{
@@ -36,7 +36,7 @@ $(function(){
 <!--[if IE 7]>
 <style>
 	#menubar dl, #section_in {
-	background:  #FFF!important;
+	background:  #000!important;
 	}
 	/* contenu "section" */
 	#section_up_left, #section_up, #section_up_right, #section_left, #section_bottom_left, #section_bottom, #section_bottom_right, #section_right{
@@ -57,7 +57,7 @@ $(function(){
 	#action_pict,
 	#comments
 	{
-	background:  #FFF!important;
+	background:  #000!important;
 	}
 </style>
 <![endif]-->
