@@ -64,7 +64,10 @@ background: transparent url(images/section_in.png) repeat top center;
 	background-repeat:no-repeat;
 }
 .content ul.thumbnails span.wrap2 {
-background: transparent url(images/vignette.png) no-repeat top left;
+background-image: url(images/vignette.png);
+background-color:transparent;
+background-repeat:no-repeat;
+background-position:top left;
 width:144px;
 height:144px;
 }
@@ -72,6 +75,10 @@ height:144px;
 	width:144px;
 	margin: 5px;
 }
+.thumbnails span, .thumbnails .wrap2 a, .thumbnails label, .thumbnailCategory div.illustration {
+    width: 145px;
+}
+
 /* header */
 #theHeader {
 	background-image: url(images/header3.jpg);
