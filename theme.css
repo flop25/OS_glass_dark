@@ -59,8 +59,7 @@ background: transparent url(images/section_in.png) repeat top center;
 }
 
 .content DIV.thumbnailCategory {
-	background-image: url(../../icon/menu/folder.png);
-	background-position: left bottom;
+	background-image: url(../OS_default/icon/menu/folder.png);background-position: left bottom;
 	background-repeat:no-repeat;
 }
 .content ul.thumbnails span.wrap2 {
@@ -75,8 +74,15 @@ height:144px;
 	width:144px;
 	margin: 5px;
 }
-.thumbnails span, .thumbnails .wrap2 a, .thumbnails label, .thumbnailCategory div.illustration {
+.thumbnails span, .thumbnails .wrap2 a, .thumbnails label {
     width: 145px;
+}
+.illustration IMG {
+	max-height:128px;
+}
+.wrap2 IMG {
+	max-height:128px;
+	max-width:128px;
 }
 
 /* header */
