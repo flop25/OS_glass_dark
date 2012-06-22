@@ -85,11 +85,12 @@ jQuery(document).ready(function(){
 	});
 });
 $(function(){
-    $(".categoryActions A").tipTip({delay : 0, fadeIn : 200, fadeOut : 200 });
-    $("#home_icon A").tipTip({edgeOffset : 10, fadeIn : 200, fadeOut : 200, defaultPosition : "top" });
-    $(".randomButtons A").tipTip({delay : 0, fadeIn : 200, fadeOut : 200 });
-    $(".navButtons A").tipTip({delay : 0, fadeIn : 200, fadeOut : 200 });
-    $("#mbCategories a").tipTip({delay : 0, fadeIn : 200, fadeOut : 200 });
+    $('.categoryActions li a[title]').tipTip({delay : 0, fadeIn : 200, fadeOut : 200, defaultPosition : "top"  });
+    $("#home_icon A[title]").tipTip({edgeOffset : 10, fadeIn : 200, fadeOut : 200, defaultPosition : "top" });
+    $(".randomButtons A[title]").tipTip({delay : 0, fadeIn : 200, fadeOut : 200 });
+    $(".navButtons A[title]").tipTip({delay : 0, fadeIn : 200, fadeOut : 200 });
+    $(".actionButtons a[title]").tipTip({delay : 0, fadeIn : 200, fadeOut : 200, defaultPosition : "top" });
+    $("#mbCategories a[title]").tipTip({delay : 0, fadeIn : 200, fadeOut : 200 });
 });
   </script> 
 {/literal}
